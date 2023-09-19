@@ -5,8 +5,6 @@ let item;
 let url;
 
 window.onload = () => {
-	item = 'salmon';
-	url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${item}`;
 	url = 'https://www.themealdb.com/api/json/v1/1/random.php';
 	get_recipes();
 }
